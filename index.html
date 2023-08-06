@@ -1,0 +1,948 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+  <title>Fiverr Clone</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+  <!-- header -->
+  <header>
+    <!-- slider -->
+    <section>
+      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+
+          <div class="carousel-item active bg-primary px-5">
+            <div class="nav">
+              <div class="logo">
+                <h1>fiverr<sub>&#x22C5;</sub></h1>
+              </div>
+
+              <div class="menu-toggle">
+                <label for="check-first"><i class="fas fa-bars"></i></label>
+                <input type="checkbox" name="" id="check-first" class="check">
+                <ul class="toggle-items">
+
+                  <li class="nav-element mb-2"><a href="" class="nav-ref">Fiverr Business</a></li>
+                  <li class="nav-element mb-2"><a href="" class="nav-ref">Explore</a></li>
+                  <li class="nav-element mb-2"><a href="" class="nav-ref"><i class="fal fa-globe"></i>English</a></li>
+                  <li class="nav-element mb-2"><a href="" class="nav-ref">$USD</a></li>
+                  <li class="nav-element mb-2"><a href="" class="nav-ref">Become a Seller</a></li>
+                  <li class="nav-element mb-2"><a href="" class="nav-ref">Sign In</a></li>
+                  <li class="nav-element"><a href="" class="nav-ref btn-my">Join</a></li>
+                </ul>
+              </div>
+
+              <ul class="menu">
+
+                <li class="nav-element"><a href="" class="nav-ref">Fiverr Business</a></li>
+                <li class="nav-element"><a href="" class="nav-ref">Explore</a></li>
+                <li class="nav-element"><a href="" class="nav-ref"><i class="fal fa-globe"></i>English</a></li>
+                <li class="nav-element"><a href="" class="nav-ref">$USD</a></li>
+                <li class="nav-element"><a href="" class="nav-ref">Become a Seller</a></li>
+                <li class="nav-element"><a href="" class="nav-ref">Sign In</a></li>
+                <li class="nav-element"><a href="" class="nav-ref btn-my">Join</a></li>
+              </ul>
+
+            </div>
+            <div class="row row-cols-lg-2 row-cols-md-1">
+              <div class="col-lg-7 d-flex align-items-center">
+                <div>
+
+                  <h1 class="heading-one">Find the perfect <i>freelance</i> services for your business</h1>
+                  <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Try 'building mobile app'"
+                      aria-label="Try 'building mobile app'" aria-describedby="button-addon2">
+                    <button class="btn btn-form" type="button" id="button-addon2">Search</button>
+                  </div>
+                  <div class="d-flex align-items-center">
+                    <p class="text-white fs-5 fw-4 mt-2">Popular:</p>
+                    <div class="ms-2" role="group" aria-label="Basic mixed styles example">
+                      <button type="button" class="btn btn-popular text-white">Website Design</button>
+                      <button type="button" class="btn btn-popular text-white">WordPress</button>
+                      <button type="button" class="btn btn-popular text-white">Logo Design</button>
+                      <button type="button" class="btn btn-popular text-white">Dropshipping</button>
+                      <button type="button" class="btn btn-popular text-white">Graphics Design</button>
+                      <button type="button" class="btn btn-popular text-white">Video Editing</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-5">
+                <div class="d-flex justify-content-center align-items-center">
+                  <img style="height: 400px;" class="pe-5 img-fluid" src="images/slider/slide-1.png" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item bg-warning px-5">
+            <div class="nav">
+              <div class="logo">
+                <h1>fiverr<sub>&#x22C5;</sub></h1>
+              </div>
+
+              <div class="menu-toggle">
+                <label for="check-second"><i class="fas fa-bars"></i></label>
+                <input type="checkbox" name="" id="check-second" class="check">
+                <ul class="toggle-items">
+
+                  <li class="nav-element mb-2"><a href="" class="nav-ref">Fiverr Business</a></li>
+                  <li class="nav-element mb-2"><a href="" class="nav-ref">Explore</a></li>
+                  <li class="nav-element mb-2"><a href="" class="nav-ref"><i class="fal fa-globe"></i>English</a></li>
+                  <li class="nav-element mb-2"><a href="" class="nav-ref">$USD</a></li>
+                  <li class="nav-element mb-2"><a href="" class="nav-ref">Become a Seller</a></li>
+                  <li class="nav-element mb-2"><a href="" class="nav-ref">Sign In</a></li>
+                  <li class="nav-element"><a href="" class="nav-ref btn-my">Join</a></li>
+                </ul>
+              </div>
+
+              <ul class="menu">
+
+                <li class="nav-element"><a href="" class="nav-ref">Fiverr Business</a></li>
+                <li class="nav-element"><a href="" class="nav-ref">Explore</a></li>
+                <li class="nav-element"><a href="" class="nav-ref"><i class="fal fa-globe"></i>English</a></li>
+                <li class="nav-element"><a href="" class="nav-ref">$USD</a></li>
+                <li class="nav-element"><a href="" class="nav-ref">Become a Seller</a></li>
+                <li class="nav-element"><a href="" class="nav-ref">Sign In</a></li>
+                <li class="nav-element"><a href="" class="nav-ref btn-my">Join</a></li>
+              </ul>
+
+            </div>
+            <div class="row row-cols-lg-2 row-cols-md-1">
+              <div class="col-lg-7 d-flex align-items-center">
+                <div>
+                  <h1 class="heading-one">Find the perfect <i>freelance</i> services for your business</h1>
+                  <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Try 'building mobile app'"
+                      aria-label="Try 'building mobile app'" aria-describedby="button-addon2">
+                    <button class="btn btn-form" type="button" id="button-addon2">Search</button>
+                  </div>
+                  <div class="d-flex align-items-center">
+                    <p class="text-white fs-5 fw-4 mt-2">Popular Search:</p>
+                    <div class="ms-2" role="group" aria-label="Basic mixed styles example">
+                      <button type="button" class="btn btn-popular text-white">Website Design</button>
+                      <button type="button" class="btn btn-popular text-white">WordPress</button>
+                      <button type="button" class="btn btn-popular text-white">Logo Design</button>
+                      <button type="button" class="btn btn-popular text-white">Dropshipping</button>
+                      <button type="button" class="btn btn-popular text-white">Graphics Design</button>
+                      <button type="button" class="btn btn-popular text-white">Video Editing</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-5">
+                <div class="d-flex justify-content-center align-items-center">
+                  <img style="height: 400px;" class="img-fluid" src="images/slider/slide-2.png" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item bg-danger px-5">
+            <div class="nav">
+              <div class="logo">
+                <h1>fiverr<sub>&#x22C5;</sub></h1>
+              </div>
+
+              <div class="menu-toggle">
+                <label for="check-third"><i class="fas fa-bars"></i></label>
+                <input type="checkbox" name="" id="check-third" class="check">
+                <ul class="toggle-items">
+
+                  <li class="nav-element mb-2"><a href="" class="nav-ref">Fiverr Business</a></li>
+                  <li class="nav-element mb-2"><a href="" class="nav-ref">Explore</a></li>
+                  <li class="nav-element mb-2"><a href="" class="nav-ref"><i class="fal fa-globe"></i>English</a></li>
+                  <li class="nav-element mb-2"><a href="" class="nav-ref">$USD</a></li>
+                  <li class="nav-element mb-2"><a href="" class="nav-ref">Become a Seller</a></li>
+                  <li class="nav-element mb-2"><a href="" class="nav-ref">Sign In</a></li>
+                  <li class="nav-element"><a href="" class="nav-ref btn-my">Join</a></li>
+                </ul>
+              </div>
+
+              <ul class="menu">
+
+                <li class="nav-element"><a href="" class="nav-ref">Fiverr Business</a></li>
+                <li class="nav-element"><a href="" class="nav-ref">Explore</a></li>
+                <li class="nav-element"><a href="" class="nav-ref"><i class="fal fa-globe"></i>English</a></li>
+                <li class="nav-element"><a href="" class="nav-ref">$USD</a></li>
+                <li class="nav-element"><a href="" class="nav-ref">Become a Seller</a></li>
+                <li class="nav-element"><a href="" class="nav-ref">Sign In</a></li>
+                <li class="nav-element"><a href="" class="nav-ref btn-my">Join</a></li>
+              </ul>
+
+            </div>
+            <div class="row row-cols-lg-2 row-cols-md-1">
+              <div class="col-lg-7 d-flex align-items-center">
+                <div>
+                  <h1 class="heading-one">Find the perfect <i>freelance</i> services for your business</h1>
+                  <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Try 'building mobile app'"
+                      aria-label="Try 'building mobile app'" aria-describedby="button-addon2">
+                    <button class="btn btn-form" type="button" id="button-addon2">Search</button>
+                  </div>
+                  <div class="d-flex align-items-center">
+                    <p class="text-white mt-2">Popular:</p>
+                    <div class="ms-2" role="group" aria-label="Basic mixed styles example">
+                      <button type="button" class="btn btn-popular text-white">Website Design</button>
+                      <button type="button" class="btn btn-popular text-white">WordPress</button>
+                      <button type="button" class="btn btn-popular text-white">Logo Design</button>
+                      <button type="button" class="btn btn-popular text-white">Dropshipping</button>
+                      <button type="button" class="btn btn-popular text-white">Graphics Design</button>
+                      <button type="button" class="btn btn-popular text-white">Video Editing</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-5">
+                <div class="d-flex justify-content-center align-items-center">
+                  <img style="height: 400px;" class="img-fluid" src="images/slider/slide-3.png" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="bg-light pb-5">
+        <div class="row row-cols-lg-6 row-cols-md-1 row-cols-1 g-5 container-my">
+          <div class="col d-flex align-items-center justify-content-center">
+            <h4>Trusted by:</h4>
+          </div>
+          <div class="col d-flex align-items-center justify-content-center"><img src="images/partner/facebook.png"
+              alt="" class="w-75">
+          </div>
+          <div class="col d-flex align-items-center justify-content-center"><img src="images/partner/google.png" alt=""
+              class="w-75"></div>
+          <div class="col d-flex align-items-center justify-content-center"><img src="images/partner/netflix.png" alt=""
+              class="w-75"></div>
+          <div class="col d-flex align-items-center justify-content-center"><img src="images/partner/p&g.png" alt=""
+              class="w-75"></div>
+          <div class="col d-flex align-items-center justify-content-center"><img src="images/partner/paypal.png" alt=""
+              class="w-75"></div>
+        </div>
+      </div>
+
+
+
+    </section>
+  </header>
+
+  <main>
+    <!-- service section -->
+    <section class="container-my my-5 py-5">
+      <h1 class="mb-3 fw-bold">Popular professional services</h1>
+
+      <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row row-cols-lg-5 row-cols-md-2 row-cols-1 gy-4">
+              <div class="col position-relative">
+                <div class="overlay position-absolute text-white p-2">
+                  <p class="m-0">Build you brand</p>
+                  <h3>Logo Design</h3>
+                </div>
+                <img src="images/service/service-1.jpg" alt="" class="img-fluid">
+              </div>
+              <div class="col position-relative">
+                <div class="overlay position-absolute text-white p-2">
+                  <p class="m-0">Customize your site</p>
+                  <h3>WordPress</h3>
+                </div><img src="images/service/service-2.jpg" alt="" class="img-fluid">
+              </div>
+              <div class="col position-relative">
+                <div class="overlay position-absolute text-white p-2">
+                  <p class="m-0">Share your meassage</p>
+                  <h3>Voice Over</h3>
+                </div><img src="images/service/service-3.jpg" alt="" class="img-fluid">
+              </div>
+              <div class="col position-relative">
+                <div class="overlay position-absolute text-white p-2">
+                  <p class="m-0">Engage your audience</p>
+                  <h3>Video Explainer</h3>
+                </div><img src="images/service/service-4.jpg" alt="" class="img-fluid">
+              </div>
+              <div class="col position-relative">
+                <div class="overlay position-absolute text-white p-2">
+                  <p class="m-0">Reach more customers</p>
+                  <h3>Social Media</h3>
+                </div><img src="images/service/service-5.jpg" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row row-cols-lg-5 row-cols-md-2 row-cols-1 gy-4">
+              <div class="col position-relative">
+                <div class="overlay position-absolute text-white p-2">
+                  <p class="m-0">Build you brand</p>
+                  <h3>Logo Design</h3>
+                </div>
+                <img src="images/service/service-1.jpg" alt="" class="img-fluid">
+              </div>
+              <div class="col position-relative">
+                <div class="overlay position-absolute text-white p-2">
+                  <p class="m-0">Customize your site</p>
+                  <h3>WordPress</h3>
+                </div><img src="images/service/service-2.jpg" alt="" class="img-fluid">
+              </div>
+              <div class="col position-relative">
+                <div class="overlay position-absolute text-white p-2">
+                  <p class="m-0">Share your meassage</p>
+                  <h3>Voice Over</h3>
+                </div><img src="images/service/service-3.jpg" alt="" class="img-fluid">
+              </div>
+              <div class="col position-relative">
+                <div class="overlay position-absolute text-white p-2">
+                  <p class="m-0">Engage your audience</p>
+                  <h3>Video Explainer</h3>
+                </div><img src="images/service/service-4.jpg" alt="" class="img-fluid">
+              </div>
+              <div class="col position-relative">
+                <div class="overlay position-absolute text-white p-2">
+                  <p class="m-0">Reach more customers</p>
+                  <h3>Social Media</h3>
+                </div><img src="images/service/service-5.jpg" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row row-cols-lg-5 row-cols-md-2 row-cols-1 gy-4">
+              <div class="col position-relative">
+                <div class="overlay position-absolute text-white p-2">
+                  <p class="m-0">Build you brand</p>
+                  <h3>Logo Design</h3>
+                </div>
+                <img src="images/service/service-1.jpg" alt="" class="img-fluid">
+              </div>
+              <div class="col position-relative">
+                <div class="overlay position-absolute text-white p-2">
+                  <p class="m-0">Customize your site</p>
+                  <h3>WordPress</h3>
+                </div><img src="images/service/service-2.jpg" alt="" class="img-fluid">
+              </div>
+              <div class="col position-relative">
+                <div class="overlay position-absolute text-white p-2">
+                  <p class="m-0">Share your meassage</p>
+                  <h3>Voice Over</h3>
+                </div><img src="images/service/service-3.jpg" alt="" class="img-fluid">
+              </div>
+              <div class="col position-relative">
+                <div class="overlay position-absolute text-white p-2">
+                  <p class="m-0">Engage your audience</p>
+                  <h3>Video Explainer</h3>
+                </div><img src="images/service/service-4.jpg" alt="" class="img-fluid">
+              </div>
+              <div class="col position-relative">
+                <div class="overlay position-absolute text-white p-2">
+                  <p class="m-0">Reach more customers</p>
+                  <h3>Social Media</h3>
+                </div><img src="images/service/service-5.jpg" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+
+    <!-- talent section -->
+    <section class="container-my my-5">
+      <div class="row row-cols-lg-2 row-cols-md-1">
+        <div class="col-lg-5">
+          <h1 class="fw-bold">A whole world of freelance talent at your fingertips</h1>
+          <div>
+            <h4><i class="far fa-check-circle text-secondary"></i>The best for every budget</h4>
+            <p>Find high-quality services at every price point. No hourly rates, just project-based pricing.</p>
+          </div>
+          <div>
+            <h4><i class="far fa-check-circle text-secondary"></i>Quality work done quickly</h4>
+            <p>Find the right freelancer to begin working on your project within minutes..</p>
+          </div>
+          <div>
+            <h4><i class="far fa-check-circle text-secondary"></i>Protected payments, every time</h4>
+            <p>Always know what you'll pay upfront. Your payment isn't released until you approve the work..</p>
+          </div>
+          <div>
+            <h4><i class="far fa-check-circle text-secondary"></i>24/7 supportt</h4>
+            <p>Questions? Our round-the-clock support team is available to help anytime, anywhere.</p>
+          </div>
+        </div>
+        <div class="col-lg-7 d-flex align-items-center">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/qz0aGYrrlhU" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- marketplace section -->
+    <section class="container-my my-5 py-5">
+      <h1 class="fw-bold">Explore the marketplace</h1>
+      <div class="markret-place">
+        <div class="box">
+          <div>
+            <div class="d-flex justify-content-center position-relative box-pic pb-3"><img
+                src="images/marketplace/market-1.svg" alt=""></div>
+            <h5 class="text-center mt-3">Graphics & Design</h5>
+          </div>
+
+        </div>
+        <div class="box">
+          <div>
+            <div class="d-flex justify-content-center position-relative box-pic pb-3"><img
+                src="images/marketplace/market-2.svg" alt=""></div>
+            <h5 class="text-center mt-3">Digital Marketing</h5>
+          </div>
+
+        </div>
+        <div class="box">
+          <div>
+            <div class="d-flex justify-content-center position-relative box-pic pb-3"><img
+                src="images/marketplace/market-3.svg" alt=""></div>
+            <h5 class="text-center mt-3">Writing & Translation
+            </h5>
+          </div>
+
+        </div>
+        <div class="box">
+          <div>
+            <div class="d-flex justify-content-center position-relative box-pic pb-3"><img
+                src="images/marketplace/market-4.svg" alt=""></div>
+            <h5 class="text-center mt-3">Video & Animation</h5>
+          </div>
+
+        </div>
+        <div class="box">
+          <div>
+            <div class="d-flex justify-content-center box-pic position-relative pb-3"><img
+                src="images/marketplace/market-5.svg" alt=""></div>
+            <h5 class="text-center mt-3 ">Music & Audio</h5>
+          </div>
+
+        </div>
+        <div class="box">
+          <div>
+            <div class="d-flex justify-content-center position-relative box-pic pb-3"><img
+                src="images/marketplace/market-6.svg" alt=""></div>
+            <h5 class="mt-3 text-center">Programming & Tech</h5>
+          </div>
+
+        </div>
+        <div class="box">
+          <div>
+            <div class="d-flex justify-content-center position-relative box-pic pb-3"><img
+                src="images/marketplace/market-7.svg" alt=""></div>
+            <h5 class="mt-3 text-center">Business</h5>
+          </div>
+
+        </div>
+        <div class="box">
+          <div>
+            <div class="d-flex justify-content-center position-relative box-pic pb-3"><img
+                src="images/marketplace/market-8.svg" alt=""></div>
+            <h5 class="mt-3 text-center">Lifestyle</h5>
+          </div>
+
+        </div>
+        <div class="box">
+          <div>
+            <div class="d-flex justify-content-center position-relative box-pic pb-3"><img
+                src="images/marketplace/market-9.svg" alt=""></div>
+            <h5 class="mt-3 text-center">Data</h5>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- business section -->
+    <section style="background-color: #0D084D;" class="py-5">
+      <div class="container-my">
+        <div class="row row-cols-lg-2 row-cols-md-1">
+          <div class="col-lg-5 text-white">
+            <h3 class="d-flex align-items-center m-0">fiverr business <span
+                class="badge rounded-pill bg-info text-dark">New</span></h3>
+            <h1 class="fw-bold py-5">A business solution designed for <i>teams</i></h1>
+            <h5 class="fw-normal mb-4">Upgrade to a curated experience packed with tools and benefits, dedicated to
+              businesses
+
+            </h5>
+            <p class="mb-3"><i class="far fa-check-circle fs-3 text-secondary me-2"></i>Connect to freelancers with
+              proven business experience</p>
+            <p class="mb-3"><i class="far fa-check-circle fs-3 text-secondary me-2"></i>Get matched with the perfect
+              talent by a customer success manager</p>
+            <p class="mb-5"><i class="far fa-check-circle fs-3 text-secondary me-2"></i>Manage teamwork and boost
+              productivity with one powerful workspace</p>
+            <button class="btn btn-success fs-5">Explore Fiverr Business</button>
+          </div>
+          <div class="col-lg-7 d-flex align-items-center">
+            <img class="img-fluid" src="images/business/business.png" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- testimonial section -->
+    <section class="container-my my-5 py-5">
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row row-cols-lg-2 row-cols-md-1">
+              <div class="col-lg-4 d-flex justify-content-center">
+                <picture>
+
+                  <i class="fas fa-play"></i>
+                  <img class="img-fluid rounded-2" src="images/testimonial/testimonial-1.jpg" alt="">
+                </picture>
+              </div>
+              <div class="col-lg-8 d-flex align-items-center">
+                <div>
+                  <h5 class="name-title text-secondary position-relative">Caitlin Tormey, Chief Commercial Officer <img
+                      class="ms-3" width="90px" src="images/testimonial/testimonial-logo-1.png" alt=""></h5>
+                  <blockquote>
+                    <i>"We've used Fiverr for Shopify web development, graphic design, and backend web development.
+                      Working with Fiverr makes my job a little easier every day."</i>
+                  </blockquote>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row row-cols-lg-2 row-cols-md-1">
+              <div class="col-lg-4 d-flex justify-content-center">
+                <picture>
+                  <i class="fas fa-play"></i>
+                  <img class="img-fluid rounded-2" src="images/testimonial/testimonial-2.jpg" alt="">
+                </picture>
+              </div>
+              <div class="col-lg-8 d-flex align-items-center">
+                <div>
+                  <h5 class="name-title text-secondary position-relative">Brighid Gannon (DNP, PMHNP-BC), Co-Founder<img
+                      class="ms-3" width="90px" src="images/testimonial/testimonial-logo-2.png" alt=""></h5>
+                  <blockquote>
+                    <i>"We used Fiverr for SEO, our logo, website, copy, animated videos — literally everything. It was
+                      like working with a human right next to you versus being across the world."</i>
+                  </blockquote>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row row-cols-lg-2 row-cols-md-1">
+              <div class="col-lg-4 d-flex justify-content-center">
+                <picture>
+                  <i class="fas fa-play"></i>
+                  <img class="img-fluid rounded-2" src="images/testimonial/testimonial-3.jpg" alt="">
+                </picture>
+              </div>
+              <div class="col-lg-8 d-flex align-items-center">
+                <div>
+                  <h5 class="name-title text-secondary position-relative">Kay Kim, Co-Founder<img width="90px"
+                      class="ms-3" src="images/testimonial/testimonial-logo-3.png" alt=""></h5>
+                  <blockquote>
+                    <i>"It's extremely exciting that Fiverr has freelancers from all over the world — it broadens the
+                      talent pool. One of the best things about Fiverr is that while we're sleeping, someone's
+                      working."</i>
+                  </blockquote>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row row-cols-lg-2 row-cols-md-1">
+              <div class="col-lg-4 d-flex justify-content-center">
+                <picture>
+                  <i class="fas fa-play"></i>
+                  <img class="img-fluid rounded-2" src="images/testimonial/testimonial-4.jpg" alt="">
+                </picture>
+              </div>
+              <div class="col-lg-8 d-flex align-items-center">
+                <div>
+                  <h5 class="name-title text-secondary position-relative">Tim and Dan Joo, Co-Founders<img class="ms-3"
+                      width="90px" src="images/testimonial/testimonial-logo-4.png" alt=""></h5>
+                  <blockquote>
+                    <i>"When you want to create a business bigger than yourself, you need a lot of help. That's what
+                      Fiverr does."</i>
+                  </blockquote>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- logomaker section -->
+    <section id="logo" class="container-my my-5" style="background-color: #4a73e8;">
+      <div class="row row-cols-lg-2 row-cols-md-1">
+        <div class="col-lg-5 text-white" style="padding: 30px 0px 30px 50px;">
+          <h3 class="d-flex align-items-center m-0">fiverr logomaker <span
+              class="badge rounded-pill text-dark">Beta</span></h3>
+          <h2>Make an incredible logo <br><i>in minutes</i></h2>
+          <p>Pre-designed by top talent. Just add your touch</p>
+          <button class="btn btn-light text-primary">Try Fiverr Logo Maker</button>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- projects section -->
+    <section class="my-5 py-5" id='projects' style="background-color: #F5F5F5;">
+      <div class="container-my">
+        <h1 class="fw-bold">Get inspired with projects made by our freelancers</h1>
+
+        <div id="carouselExampleControlsNoTouchingThree" class="carousel slide" data-bs-touch="false"
+          data-bs-interval="false">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-4 mb-3">
+                <div class="col">
+                  <div class="card border-0 shadow">
+                    <img src="images/projects/projects-11.jpg" class="card-img-top" style="height: 240px;" alt="...">
+                    <div class="card-footer d-flex align-items-center">
+                      <img class="rounded-circle" src="images/freelancer/freelancer-1.jpg" alt="">
+                      <div class="ms-3">
+                        <a class="text-dark fw-bold" href="">Flyer Design</a>
+                        <br>
+                        <a class="text-secondary" href="">by noneyn</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card border-0 shadow">
+                    <img src="images/projects/projects-12.jpg" class="card-img-top" style="height: 240px;" alt="...">
+                    <div class="card-footer d-flex align-items-center">
+                      <img class="rounded-circle" src="images/freelancer/freelancer-2.jpg" alt="">
+                      <div class="ms-3">
+                        <a class="text-dark fw-bold" href="">Packaging Design</a>
+                        <br>
+                        <a class="text-secondary" href="">by mijalzagier</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card border-0 shadow">
+                    <img src="images/projects/projects-13.jpg" class="card-img-top" style="height: 240px;" alt="...">
+                    <div class="card-footer d-flex align-items-center">
+                      <img class="rounded-circle" src="images/freelancer/freelancer-3.jpg" alt="">
+                      <div class="ms-3">
+                        <a class="text-dark fw-bold" href="">Social Media Design</a>
+                        <br>
+                        <a class="text-secondary" href="">by fernandobengua</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card border-0 shadow">
+                    <img src="images/projects/projects-14.jpg" class="card-img-top" style="height: 240px;" alt="...">
+                    <div class="card-footer d-flex align-items-center">
+                      <img class="rounded-circle" src="images/freelancer/freelancer-4.jpg" alt="">
+                      <div class="ms-3">
+                        <a class="text-dark fw-bold" href="">Animated GIFs</a>
+                        <br>
+                        <a class="text-secondary" href="">by lamonastudio</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-4 mb-3">
+                <div class="col">
+                  <div class="card border-0 shadow">
+                    <img src="images/projects/projects-21.jpg" class="card-img-top" style="height: 240px;" alt="...">
+                    <div class="card-footer d-flex align-items-center">
+                      <img class="rounded-circle" src="images/freelancer/freelancer-1.jpg" alt="">
+                      <div class="ms-3">
+                        <a class="text-dark fw-bold" href="">Book Design</a>
+                        <br>
+                        <a class="text-secondary" href="">by annapietrangeli</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card border-0 shadow">
+                    <img src="images/projects/projects-22.jpg" class="card-img-top" style="height: 240px;" alt="...">
+                    <div class="card-footer d-flex align-items-center">
+                      <img class="rounded-circle" src="images/freelancer/freelancer-2.jpg" alt="">
+                      <div class="ms-3">
+                        <a class="text-dark fw-bold" href="">Logo Design</a>
+                        <br>
+                        <a class="text-secondary" href="">by bruno_malagrino</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card border-0 shadow">
+                    <img src="images/projects/projects-23.jpg" class="card-img-top" style="height: 240px;" alt="...">
+                    <div class="card-footer d-flex align-items-center">
+                      <img class="rounded-circle" src="images/freelancer/freelancer-3.jpg" alt="">
+                      <div class="ms-3">
+                        <a class="text-dark fw-bold" href="">Product Photography</a>
+                        <br>
+                        <a class="text-secondary" href="">by passionshake</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card border-0 shadow">
+                    <img src="images/projects/projects-24.jpg" class="card-img-top" style="height: 240px;" alt="...">
+                    <div class="card-footer d-flex align-items-center">
+                      <img class="rounded-circle" src="images/freelancer/freelancer-4.jpg" alt="">
+                      <div class="ms-3">
+                        <a class="text-dark fw-bold" href="">Illustration</a>
+                        <br>
+                        <a class="text-secondary" href="">by christophbrandl</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-4 mb-3">
+                <div class="col">
+                  <div class="card border-0 shadow">
+                    <img src="images/projects/projects-31.jpg" class="card-img-top" style="height: 240px;" alt="...">
+                    <div class="card-footer d-flex align-items-center">
+                      <img class="rounded-circle" src="images/freelancer/freelancer-1.jpg" alt="">
+                      <div class="ms-3">
+                        <a class="text-dark fw-bold" href="">Portraits & Caricatures</a>
+                        <br>
+                        <a class="text-secondary" href="">by spickex</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card border-0 shadow">
+                    <img src="images/projects/projects-32.jpg" class="card-img-top" style="height: 240px;" alt="...">
+                    <div class="card-footer d-flex align-items-center">
+                      <img class="rounded-circle" src="images/freelancer/freelancer-2.jpg" alt="">
+                      <div class="ms-3">
+                        <a class="text-dark fw-bold" href="">Web & Mobile Design</a>
+                        <br>
+                        <a class="text-secondary" href="">by skydesigner</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card border-0 shadow">
+                    <img src="images/projects/projects-33.jpg" class="card-img-top" style="height: 240px;" alt="...">
+                    <div class="card-footer d-flex align-items-center">
+                      <img class="rounded-circle" src="images/freelancer/freelancer-3.jpg" alt="">
+                      <div class="ms-3">
+                        <a class="text-dark fw-bold" href="">Logo Design</a>
+                        <br>
+                        <a class="text-secondary" href="">by eveeelin</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card border-0 shadow">
+                    <img src="images/projects/projects-34.jpg" class="card-img-top" style="height: 240px;" alt="...">
+                    <div class="card-footer d-flex align-items-center">
+                      <img class="rounded-circle" src="images/freelancer/freelancer-4.jpg" alt="">
+                      <div class="ms-3">
+                        <a class="text-dark fw-bold" href="">Mockup Design</a>
+                        <br>
+                        <a class="text-secondary" href="">by duckins</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouchingThree"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon previous-arrow" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouchingThree"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon next-arrow" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+
+    </section>
+
+
+
+
+    <!-- guides section -->
+    <section class="container-my my-5">
+      <h1 class="fw-bold">Fiverr Guides</h1>
+
+      <div class="guide-row">
+        <div class="guide-col">
+          <div class="guide-image"><img class="img-fluid" src="images/guides/guide-1.png" alt=""></div>
+          <h6 class="text-dark fw-bold pt-3">Start an online business and work from home</h6>
+          <p class="text-secondary">A complete guide to starting a small business online</p>
+        </div>
+        <div class="guide-col">
+          <div class="guide-image"><img class="img-fluid" src="images/guides/guide-2.png" alt=""></div>
+          <h6 class="text-dark fw-bold pt-3">Digital marketing made easy</h6>
+          <p class="text-secondary">A practical guide to understand what is digital marketing</p>
+        </div>
+        <div class="guide-col">
+          <div class="guide-image"><img class="img-fluid" src="images/guides/guide-3.png" alt=""></div>
+          <h6 class="text-dark fw-bold pt-3">Create a logo for your business</h6>
+          <p class="text-secondary">A step-by-step guide to create a memorable business logo</p>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- talent section -->
+    <section id="talent" class="container-my mt-5 rounded">
+      <h2 class="text-white fw-bold talent-txt">Find the <i>talent</i> needed to <br>get your business <i>growing</i>.
+      </h2>
+      <button class="btn btn-success fw-bolder">Get Started</button>
+    </section>
+
+  </main>
+
+
+  <!-- footer -->
+  <footer>
+    <!-- lists -->
+    <section class="border-top footer-border-color">
+      <div class="container-my">
+        <div class="footer-lists">
+          <ul class="list">
+            <h6 class="text-dark">Categories</h6>
+            <li class="list-item"><a class="list-link" href="">Graphics & Design</a></li>
+            <li class="list-item"><a class="list-link" href="">Digital Marketing</a></li>
+            <li class="list-item"><a class="list-link" href="">Writing & Translation</a></li>
+            <li class="list-item"><a class="list-link" href="">Video & Animation</a></li>
+            <li class="list-item"><a class="list-link" href="">Music & Audio</a></li>
+            <li class="list-item"><a class="list-link" href="">Programming & Tech</a></li>
+            <li class="list-item"><a class="list-link" href="">Data</a></li>
+            <li class="list-item"><a class="list-link" href="">Business</a></li>
+            <li class="list-item"><a class="list-link" href="">Lifestyle</a></li>
+            <li class="list-item"><a class="list-link" href="">Sitemap</a></li>
+          </ul>
+          <ul class="list">
+            <h6 class="text-dark">About</h6>
+            <li class="list-item"><a class="list-link" href="">Careers</a></li>
+            <li class="list-item"><a class="list-link" href="">Press & News</a></li>
+            <li class="list-item"><a class="list-link" href="">Partnerships</a></li>
+            <li class="list-item"><a class="list-link" href="">Privacy Policy</a></li>
+            <li class="list-item"><a class="list-link" href="">Terms of Service</a></li>
+            <li class="list-item"><a class="list-link" href="">Intellectual Property Claims</a></li>
+            <li class="list-item"><a class="list-link" href="">Investor Relations</a></li>
+          </ul>
+          <ul class="list">
+            <h6 class="text-dark">Support</h6>
+            <li class="list-item"><a class="list-link" href="">Help & Support</a></li>
+            <li class="list-item"><a class="list-link" href="">Trust & Safety</a></li>
+            <li class="list-item"><a class="list-link" href="">Selling on Fiverr</a></li>
+            <li class="list-item"><a class="list-link" href="">Buying on Fiverr</a></li>
+          </ul>
+          <ul class="list">
+            <h6 class="text-dark">Community</h6>
+            <li class="list-item"><a class="list-link" href="">
+                Events</a></li>
+            <li class="list-item"><a class="list-link" href="">Blog</a></li>
+            <li class="list-item"><a class="list-link" href="">Forum</a></li>
+            <li class="list-item"><a class="list-link" href="">Community Standards</a></li>
+            <li class="list-item"><a class="list-link" href="">Podcast</a></li>
+            <li class="list-item"><a class="list-link" href="">Affiliates</a></li>
+            <li class="list-item"><a class="list-link" href="">Invite a Friend</a></li>
+            <li class="list-item"><a class="list-link" href="">Become a Seller</a></li>
+            <li class="list-item"><a class="list-link" href="">Fiverr Elevate <br><span class="link-ext">Exclusive
+                  Benefits</span></a></li>
+          </ul>
+          <ul class="list">
+            <h6 class="text-dark">More From Fiverr</h6>
+            <li class="list-item"><a class="list-link" href="">Fiverr Business</a></li>
+            <li class="list-item"><a class="list-link" href="">Fiverr Pro</a></li>
+            <li class="list-item"><a class="list-link" href="">Fiverr Studios</a></li>
+            <li class="list-item"><a class="list-link" href="">Fiverr Logo Maker</a></li>
+            <li class="list-item"><a class="list-link" href="">Fiverr Guides</a></li>
+            <li class="list-item"><a class="list-link" href="">Get Inspired</a></li>
+            <li class="list-item"><a class="list-link" href="">ClearVoice <br><span class="link-ext">Content
+                  Marketing</span></a></li>
+            <li class="list-item"><a class="list-link" href="">AND CO
+                <br><span class="link-ext">Invoice Software</span></a></li>
+            <li class="list-item"><a class="list-link" href="">Learn <br><span class="link-ext">
+                  Online Courses</span></a></li>
+          </ul>
+        </div>
+        <div class="footer-bottom border-top footer-border-color">
+          <div class="bottom-left d-flex align-items-center">
+            <h1 style="color: #7A7D85;" class="fw-bold">fiverr<sub class="fs-6">&#174;</sub></h1>
+            <p class="text-secondary mb-2">&copy; Fiverr International Ltd. 2021</p>
+          </div>
+          <div class="bottom-right d-flex align-items-center">
+            <ul class="social-lists d-flex align-items-center">
+              <li class="social-item"><a href="" class="social-link"><i class="fab fa-twitter"></i></a></li>
+              <li class="social-item"><a href="" class="social-link"><i class="fab fa-facebook"></i></a></li>
+              <li class="social-item"><a href="" class="social-link"><i class="fab fa-linkedin"></i></a></li>
+              <li class="social-item"><a href="" class="social-link"><i class="fab fa-pinterest"></i></a></li>
+              <li class="social-item"><a href="" class="social-link"><i class="fab fa-instagram"></i></a></li>
+
+            </ul>
+            <ul class="d-flex">
+              <li class="language ms-5"><a href="" class="social-link"><i class="far fa-globe me-2"></i>English</a></li>
+              <li class="dollar ms-2"><a href="" class="social-link">$USD</a></li>
+              <li class="social-item human"><a href="" class="social-link"><i class="fas fa-male"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </footer>
+
+
+
+
+
+  <!-- scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="js/fontawesome.js"></script>
+</body>
+
+</html>
